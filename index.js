@@ -37,7 +37,6 @@ let S_1216 = "";
 let S_1217 = "";
 
 let S_1219 = "";
-let S_1220 = "";
 
 let S_1222 = "";
 let S_1223 = "";
@@ -630,20 +629,6 @@ function A_1219() {
 
 
 
-// ==============================    1220      ======================================
-
-function A_1220() {
-    document.getElementById('A_1220').style.background = 'red';
-    document.getElementById('P_1220').style.background = 'gray';
-
-    document.getElementById('A_1220').style.display = 'none';
-    document.getElementById('A_1220').style.cursor = "no-drop";
-
-    S_1220 = "*1220*  "; absent++;
-}
-
-
-
 
 
 // ==============================    1222      ======================================
@@ -848,7 +833,7 @@ function crwhatsapp() {
 
 
 
-    let final_present = 49 - absent;
+    let final_present = 48 - absent;
 
 
     let url = "http://wa.me/923126994387?text="
@@ -867,11 +852,11 @@ function crwhatsapp() {
         + "-------------------------------" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
-        + "*Total Present :*" + "    " + (49 - absent) + "%0a"
+        + "*Total Present :*" + "    " + (48 - absent) + "%0a"
         + " " + "%0a"
         + "*Total Absent :*" + "    " + absent + "%0a"
         + " " + "%0a"
-        + "*Percentage :*" + "       " + (final_present / 49) * 100 + "%" + "%0a"
+        + "*Percentage :*" + "       " + (final_present / 48) * 100 + "%" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
         + "-------------------------------" + "%0a"
@@ -915,7 +900,6 @@ function crwhatsapp() {
         + S_1217
 
         + S_1219
-        + S_1220
 
         + S_1222
         + S_1223
@@ -930,7 +914,7 @@ function crwhatsapp() {
         + S_1232
         + S_1233
         + S_1860
-        
+
 
 
 
@@ -954,17 +938,17 @@ function grwhatsapp() {
 
 
 
-    let final_present = 49 - absent;
+    let final_present = 48 - absent;
 
 
-    let url = "http://wa.me/923126994387?text="
+    let url = "http://wa.me/923263739443?text="
 
         + "*Asslam-o-Alaikum !*" + " " + "" + "%0a"
         + " " + "%0a"
         + "*Today Attendance Report*" + "%0a"
         + " " + "%0a"
         + "-------------------------------" + "%0a"
-        + "*Name :*" + "  " + "*CR. Faheem Raza*" + "%0a"
+        + "*Name :*" + "  " + "*GR. Nabiha Mehmood*" + "%0a"
         + "*Section :*" + "           " + "CS-(B)" + "%0a"
         + "*Batch :*" + "              " + "2022" + "%0a"
         + "*Department :*" + "   " + "DCS" + "%0a"
@@ -973,11 +957,11 @@ function grwhatsapp() {
         + "-------------------------------" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
-        + "*Total Present :*" + "    " + (49 - absent) + "%0a"
+        + "*Total Present :*" + "    " + (48 - absent) + "%0a"
         + " " + "%0a"
         + "*Total Absent :*" + "    " + absent + "%0a"
         + " " + "%0a"
-        + "*Percentage :*" + "       " + (final_present / 49) * 100 + "%" + "%0a"
+        + "*Percentage :*" + "       " + (final_present / 48) * 100 + "%" + "%0a"
         + " " + "%0a"
         + " " + "%0a"
         + "-------------------------------" + "%0a"
@@ -1021,7 +1005,6 @@ function grwhatsapp() {
         + S_1217
 
         + S_1219
-        + S_1220
 
         + S_1222
         + S_1223
@@ -1036,114 +1019,7 @@ function grwhatsapp() {
         + S_1232
         + S_1233
         + S_1860
-        
 
-
-
-        + "-------------------------------" + "%0a"
-        + " " + "%0a"
-        + "*Thanks :)*" + "%0a"
-
-    window.open(url, "_blank");
-
-
-}
-
-
-// ================================================================
-function fawhatsapp() {
-
-
-    // subject get 
-    var e = document.getElementById("subject");
-    var value = e.value;
-    var sub = e.options[e.selectedIndex].text;
-
-
-
-    let final_present = 49 - absent;
-
-
-    let url = "http://wa.me/923126994387?text="
-
-        + "*Asslam-o-Alaikum !*" + " " + "" + "%0a"
-        + " " + "%0a"
-        + "*Today Attendance Report*" + "%0a"
-        + " " + "%0a"
-        + "-------------------------------" + "%0a"
-        + "*Name :*" + "  " + "*CR. Faheem Raza*" + "%0a"
-        + "*Section :*" + "           " + "CS-(B)" + "%0a"
-        + "*Batch :*" + "              " + "2022" + "%0a"
-        + "*Department :*" + "   " + "DCS" + "%0a"
-        + "*Subject :*" + " " + sub + "%0a"
-        + "         " + "%0a"
-        + "-------------------------------" + "%0a"
-        + " " + "%0a"
-        + " " + "%0a"
-        + "*Total Present :*" + "    " + (49 - absent) + "%0a"
-        + " " + "%0a"
-        + "*Total Absent :*" + "    " + absent + "%0a"
-        + " " + "%0a"
-        + "*Percentage :*" + "       " + (final_present / 49) * 100 + "%" + "%0a"
-        + " " + "%0a"
-        + " " + "%0a"
-        + "-------------------------------" + "%0a"
-        + " " + "%0a"
-        + "Absent Students Roll no:" + "%0a"
-
-
-
-        + S_1184
-        + S_1185
-        + S_1186
-        + S_1187
-        + S_1188
-        + S_1189
-        + S_1190
-        + S_1191
-        + S_1192
-        + S_1193
-        + S_1194
-        + S_1195
-        + S_1196
-        + S_1197
-        + S_1198
-        + S_1199
-        + S_1200
-        + S_1201
-        + S_1202
-        + S_1203
-        + S_1204
-        + S_1205
-        + S_1206
-        + S_1207
-        + S_1208
-        + S_1210
-        + S_1211
-        + S_1212
-        + S_1213
-        + S_1214
-        + S_1215
-        + S_1216
-        + S_1217
-
-        + S_1219
-        + S_1220
-
-        + S_1222
-        + S_1223
-        + S_1224
-        + S_1225
-        + S_1226
-        + S_1227
-        + S_1228
-        + S_1229
-        + S_1230
-        + S_1231
-        + S_1232
-        + S_1233
-        + S_1860
-        
 
 
 
@@ -1153,5 +1029,5 @@ function fawhatsapp() {
 
     window.open(url, "_blank");
 
-    
+
 }
